@@ -1,0 +1,6 @@
+framework module Pods_LBCocoaSpecKit_Example {
+  umbrella header "Pods-LBCocoaSpecKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

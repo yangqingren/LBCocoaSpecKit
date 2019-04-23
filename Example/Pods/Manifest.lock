@@ -1,0 +1,16 @@
+PODS:
+  - LBCocoaSpecKit (0.1.0)
+
+DEPENDENCIES:
+  - LBCocoaSpecKit (from `../`)
+
+EXTERNAL SOURCES:
+  LBCocoaSpecKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LBCocoaSpecKit: 8e5905913262dcfc84722ea73b32365291a7680d
+
+PODFILE CHECKSUM: 432a9f84cf1ed41bf8bb6120e2f0a4d5ce2fc2d5
+
+COCOAPODS: 1.6.1

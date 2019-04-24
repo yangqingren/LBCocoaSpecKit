@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LBCocoaSpecKit/Classes/**/*"
+  "source_files": "LBCocoaSpecKit/Classes/**/*",
+  "dependencies": {
+    "LBCocoaSpecKit2": [
+
+    ]
+  }
 }

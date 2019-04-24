@@ -1,0 +1,6 @@
+framework module LBCocoaSpecKit2 {
+  umbrella header "LBCocoaSpecKit2-umbrella.h"
+
+  export *
+  module * { export * }
+}

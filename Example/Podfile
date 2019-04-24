@@ -1,3 +1,6 @@
+
+source 'https://github.com/yangqingren/Spec.git'
+
 use_frameworks!
 
 platform :ios, '8.0'

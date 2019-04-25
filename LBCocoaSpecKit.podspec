@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
   
-  s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
 
   s.source_files = 'LBCocoaSpecKit/Classes/**/*'
   
@@ -44,8 +44,8 @@ TODO: Add long description of the pod here.
   
   s.dependency 'LBCocoaSpecKit2'
   
-  s.subSpec 'subKit' do |ss|
-      ss.frameworks = 'UIKit', 'MapKit'
+  s.subSpec 'SubKit' do |ss|
+      ss.frameworks = 'UIKit', 'Foundation'
       ss.source_files = 'LBCocoaSpecKit/Classes/LBCocoaSpecSubKit/**/*'
   end
   

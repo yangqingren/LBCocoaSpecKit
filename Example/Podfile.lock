@@ -1,5 +1,8 @@
 PODS:
-  - LBCocoaSpecKit (0.1.3):
+  - LBCocoaSpecKit (0.1.4):
+    - LBCocoaSpecKit/SubKit (= 0.1.4)
+    - LBCocoaSpecKit2
+  - LBCocoaSpecKit/SubKit (0.1.4):
     - LBCocoaSpecKit2
   - LBCocoaSpecKit2 (0.1.1)
 
@@ -15,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LBCocoaSpecKit: cd4471c0df11cb012c7c494e7ad833961b051ff4
+  LBCocoaSpecKit: 72153da22bc13d70a8e7c92ffe88f3d01fb4d251
   LBCocoaSpecKit2: 6cb974cf68078d7b3fca252349fedb75f07cb632
 
 PODFILE CHECKSUM: ed8adef07ab44a0deb9e722662a9b75312eea2c1

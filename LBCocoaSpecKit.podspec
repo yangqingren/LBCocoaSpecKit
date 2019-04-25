@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
   
   s.dependency 'LBCocoaSpecKit2'
   
-  s.subSpec 'SubKit' do |ss|
+  s.subspec 'SubKit' do |ss|
       ss.frameworks = 'UIKit', 'Foundation'
       ss.source_files = 'LBCocoaSpecKit/Classes/LBCocoaSpecSubKit/**/*'
   end

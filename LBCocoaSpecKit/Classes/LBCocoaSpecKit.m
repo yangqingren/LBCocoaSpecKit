@@ -8,6 +8,10 @@
 
 #import "LBCocoaSpecKit.h"
 
-@implementation LBCocoaSpecKit
+@interface LBCocoaSpecKit ()
 
+@end
+
+@implementation LBCocoaSpecKit
+/// ddddd
 @end

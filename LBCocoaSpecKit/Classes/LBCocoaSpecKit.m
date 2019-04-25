@@ -13,5 +13,5 @@
 @end
 
 @implementation LBCocoaSpecKit
-/// dddddxxxx
+/// dddddxxxxsss
 @end

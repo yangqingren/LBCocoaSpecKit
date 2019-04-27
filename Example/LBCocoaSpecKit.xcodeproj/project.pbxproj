@@ -109,7 +109,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata(LBCocoaSpecKit) */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata(cocoaSpecKit) */,
 				6003F593195388D20070C39A /* Example for LBCocoaSpecKit */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -186,14 +186,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata(LBCocoaSpecKit) */ = {
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata(cocoaSpecKit) */ = {
 			isa = PBXGroup;
 			children = (
 				AAA751C1F131F19322CA0C34 /* LBCocoaSpecKit.podspec */,
 				60A81CD24FC0F9F9254A8958 /* README.md */,
 				8C7DB978B4CBADF3BA08B9A0 /* LICENSE */,
 			);
-			name = "Podspec Metadata(LBCocoaSpecKit)";
+			name = "Podspec Metadata(cocoaSpecKit)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

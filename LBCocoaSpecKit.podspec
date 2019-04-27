@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LBCocoaSpecKit'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of LBCocoaSpecKit.'
 
 # This description is used to generate tags and improve search results.
@@ -41,9 +41,9 @@ Pod::Spec.new do |s|
   s.dependency 'SDWebImage'
   s.dependency 'LBCocoaSpecKit2'
   
-  # s.subspec 'SubKit' do |ss|
-  #    ss.frameworks = 'UIKit', 'Foundation'
-  #    ss.source_files = 'LBCocoaSpecKit/LBCocoaSpecSubKit/**/*'
-  # end
+  s.subspec 'LBCocoaSubKit' do |ss|
+    ss.frameworks = 'UIKit', 'Foundation'
+    ss.source_files = 'LBCocoaSpecKit/LBCocoaSubKit/**/*'
+  end
   
 end

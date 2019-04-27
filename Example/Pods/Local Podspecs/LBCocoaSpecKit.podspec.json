@@ -27,5 +27,13 @@
     "LBCocoaSpecKit": [
       "LBCocoaSpecKit/Assets/*"
     ]
+  },
+  "dependencies": {
+    "SDWebImage": [
+
+    ],
+    "LBCocoaSpecKit2": [
+
+    ]
   }
 }

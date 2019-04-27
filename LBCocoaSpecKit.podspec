@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LBCocoaSpecKit'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of LBCocoaSpecKit.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/yangqingren/LBCocoaSpecKit'
@@ -37,12 +37,9 @@ TODO: Add long description of the pod here.
   s.resource_bundles = {
      'LBCocoaSpecKit' => ['LBCocoaSpecKit/Assets/*']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   
-  # s.dependency 'SDWebImage'
-  
-  # s.dependency 'LBCocoaSpecKit2'
+  s.dependency 'SDWebImage'
+  s.dependency 'LBCocoaSpecKit2'
   
   # s.subspec 'SubKit' do |ss|
   #    ss.frameworks = 'UIKit', 'Foundation'

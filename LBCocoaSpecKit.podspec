@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LBCocoaSpecKit'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'A short description of LBCocoaSpecKit.'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
      'LBCocoaSpecKit' => ['LBCocoaSpecKit/Assets/*']
   }
   
-  s.dependency 'SDWebImage'
+  #s.dependency 'SDWebImage'
   s.dependency 'LBCocoaSpecKit2'
   
   s.subspec 'LBCocoaSubKit' do |ss|

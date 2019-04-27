@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LBCocoaSpecKit'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of LBCocoaSpecKit.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,6 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-                       
   s.homepage         = 'https://github.com/yangqingren/LBCocoaSpecKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -41,12 +40,13 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   
+  # s.dependency 'SDWebImage'
   
-  s.dependency 'LBCocoaSpecKit2'
+  # s.dependency 'LBCocoaSpecKit2'
   
-  s.subspec 'SubKit' do |ss|
-      ss.frameworks = 'UIKit', 'Foundation'
-      ss.source_files = 'LBCocoaSpecKit/LBCocoaSpecSubKit/**/*'
-  end
+  # s.subspec 'SubKit' do |ss|
+  #    ss.frameworks = 'UIKit', 'Foundation'
+  #    ss.source_files = 'LBCocoaSpecKit/LBCocoaSpecSubKit/**/*'
+  # end
   
 end

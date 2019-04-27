@@ -11,7 +11,6 @@
 #endif
 
 #import "LBCocoaSpecKit.h"
-#import "LBCocoaSpecSubKit.h"
 
 FOUNDATION_EXPORT double LBCocoaSpecKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LBCocoaSpecKitVersionString[];

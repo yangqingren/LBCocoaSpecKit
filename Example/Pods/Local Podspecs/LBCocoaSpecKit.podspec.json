@@ -20,7 +20,8 @@
   },
   "frameworks": [
     "UIKit",
-    "Foundation"
+    "Foundation",
+    "CoreLocation"
   ],
   "source_files": "LBCocoaSpecKit/Classes/**/*",
   "resource_bundles": {
@@ -28,19 +29,22 @@
       "LBCocoaSpecKit/Assets/*"
     ]
   },
-  "dependencies": {
-    "LBCocoaSpecKit2": [
-
-    ]
-  },
   "subspecs": [
     {
-      "name": "LBCocoaSubKit",
+      "name": "LBCocoaSubSpec",
       "frameworks": [
         "UIKit",
         "Foundation"
       ],
-      "source_files": "LBCocoaSpecKit/LBCocoaSubKit/**/*"
+      "source_files": "LBCocoaSpecKit/LBCocoaSubSpec/**/*"
+    },
+    {
+      "name": "LBCocoaSubSpec2",
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ],
+      "source_files": "LBCocoaSpecKit/LBCocoaSubSpec2/**/*"
     }
   ]
 }

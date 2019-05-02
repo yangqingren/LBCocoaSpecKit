@@ -1,8 +1,8 @@
 //
-//  LBCocoaSpecKit2.h
-//  LBCocoaSpecKit2_Example
+//  LBCocoaSubSpec.h
+//  LBCocoaSpecKit_Example
 //
-//  Created by 杨庆人 on 2019/4/24.
+//  Created by 杨庆人 on 2019/5/2.
 //  Copyright © 2019年 564008993@qq.com. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LBCocoaSpecKit2 : NSObject
+@interface LBCocoaSubSpec : NSObject
 
 @end
 

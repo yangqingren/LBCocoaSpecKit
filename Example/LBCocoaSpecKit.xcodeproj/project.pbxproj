@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DEDC3254E2E42B5059CA00A7 /* Pods_LBCocoaSpecKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673A49FE439FCCD3A254440D /* Pods_LBCocoaSpecKit_Tests.framework */; };
+		E80F0296227AC87200AC8A90 /* LBCocoaSubSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = E80F0295227AC87200AC8A90 /* LBCocoaSubSpec.m */; };
+		E80F0299227AC87E00AC8A90 /* LBCocoaSubSpec2.m in Sources */ = {isa = PBXBuildFile; fileRef = E80F0298227AC87E00AC8A90 /* LBCocoaSubSpec2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,10 @@
 		8C7DB978B4CBADF3BA08B9A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AAA751C1F131F19322CA0C34 /* LBCocoaSpecKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LBCocoaSpecKit.podspec; path = ../LBCocoaSpecKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E026F68D456D7123CF0E8FAC /* Pods-LBCocoaSpecKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBCocoaSpecKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LBCocoaSpecKit_Tests/Pods-LBCocoaSpecKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E80F0294227AC87200AC8A90 /* LBCocoaSubSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBCocoaSubSpec.h; sourceTree = "<group>"; };
+		E80F0295227AC87200AC8A90 /* LBCocoaSubSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBCocoaSubSpec.m; sourceTree = "<group>"; };
+		E80F0297227AC87E00AC8A90 /* LBCocoaSubSpec2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBCocoaSubSpec2.h; sourceTree = "<group>"; };
+		E80F0298227AC87E00AC8A90 /* LBCocoaSubSpec2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBCocoaSubSpec2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LBViewController.h */,
 				6003F5A6195388D20070C39A /* LBViewController.m */,
+				E80F0294227AC87200AC8A90 /* LBCocoaSubSpec.h */,
+				E80F0295227AC87200AC8A90 /* LBCocoaSubSpec.m */,
+				E80F0297227AC87E00AC8A90 /* LBCocoaSubSpec2.h */,
+				E80F0298227AC87E00AC8A90 /* LBCocoaSubSpec2.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -307,14 +317,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LBCocoaSpecKit_Example/Pods-LBCocoaSpecKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LBCocoaSpecKit/LBCocoaSpecKit.framework",
-				"${BUILT_PRODUCTS_DIR}/LBCocoaSpecKit2/LBCocoaSpecKit2.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBCocoaSpecKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBCocoaSpecKit2.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -375,6 +383,8 @@
 				6003F59E195388D20070C39A /* LBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E80F0299227AC87E00AC8A90 /* LBCocoaSubSpec2.m in Sources */,
+				E80F0296227AC87200AC8A90 /* LBCocoaSubSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

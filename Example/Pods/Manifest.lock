@@ -1,26 +1,20 @@
 PODS:
   - LBCocoaSpecKit (0.1.9):
-    - LBCocoaSpecKit/LBCocoaSubKit (= 0.1.9)
-    - LBCocoaSpecKit2
-  - LBCocoaSpecKit/LBCocoaSubKit (0.1.9):
-    - LBCocoaSpecKit2
-  - LBCocoaSpecKit2 (0.1.1)
+    - LBCocoaSpecKit/LBCocoaSubSpec (= 0.1.9)
+    - LBCocoaSpecKit/LBCocoaSubSpec2 (= 0.1.9)
+  - LBCocoaSpecKit/LBCocoaSubSpec (0.1.9)
+  - LBCocoaSpecKit/LBCocoaSubSpec2 (0.1.9)
 
 DEPENDENCIES:
   - LBCocoaSpecKit (from `../`)
-
-SPEC REPOS:
-  https://github.com/yangqingren/Spec.git:
-    - LBCocoaSpecKit2
 
 EXTERNAL SOURCES:
   LBCocoaSpecKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LBCocoaSpecKit: eb014ef12af946e9b7c6341f1d32fac7cdad0c13
-  LBCocoaSpecKit2: 6cb974cf68078d7b3fca252349fedb75f07cb632
+  LBCocoaSpecKit: a41ba3628dd84a295b1615f7f9c75d540d365e19
 
-PODFILE CHECKSUM: 1fdc6d482afcfd1fa98aadf41e45ede25a1bf96c
+PODFILE CHECKSUM: f7c776f394be033a12ad5cb6896c41184add05ab
 
 COCOAPODS: 1.6.1

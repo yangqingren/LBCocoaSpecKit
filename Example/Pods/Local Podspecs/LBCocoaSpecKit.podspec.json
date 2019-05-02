@@ -25,7 +25,7 @@
   ],
   "source_files": "LBCocoaSpecKit/Classes/**/*",
   "resource_bundles": {
-    "LBCocoaSpecKit": [
+    "LBCocoaSpecKitBox": [
       "LBCocoaSpecKit/Assets/*"
     ]
   },

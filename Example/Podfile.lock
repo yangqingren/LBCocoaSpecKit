@@ -1,9 +1,9 @@
 PODS:
-  - LBCocoaSpecKit (0.1.9):
-    - LBCocoaSpecKit/LBCocoaSubSpec (= 0.1.9)
-    - LBCocoaSpecKit/LBCocoaSubSpec2 (= 0.1.9)
-  - LBCocoaSpecKit/LBCocoaSubSpec (0.1.9)
-  - LBCocoaSpecKit/LBCocoaSubSpec2 (0.1.9)
+  - LBCocoaSpecKit (0.2.0):
+    - LBCocoaSpecKit/LBCocoaSubSpec (= 0.2.0)
+    - LBCocoaSpecKit/LBCocoaSubSpec2 (= 0.2.0)
+  - LBCocoaSpecKit/LBCocoaSubSpec (0.2.0)
+  - LBCocoaSpecKit/LBCocoaSubSpec2 (0.2.0)
 
 DEPENDENCIES:
   - LBCocoaSpecKit (from `../`)
@@ -13,8 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LBCocoaSpecKit: 9951be9f383cd280af011e6554435789d83676bb
+  LBCocoaSpecKit: bcbdfc6851878aab35d86e1da391ab7ea32f3288
 
-PODFILE CHECKSUM: 1fdc6d482afcfd1fa98aadf41e45ede25a1bf96c
+PODFILE CHECKSUM: f7c776f394be033a12ad5cb6896c41184add05ab
 
 COCOAPODS: 1.6.1

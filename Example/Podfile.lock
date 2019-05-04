@@ -1,25 +1,23 @@
 PODS:
   - LBCocoaSpecKit (0.1.9):
-    - SDWebImage
-  - SDWebImage (5.0.2):
-    - SDWebImage/Core (= 5.0.2)
-  - SDWebImage/Core (5.0.2)
+    - LBCocoaSpecKit2 (= 0.1.1)
+  - LBCocoaSpecKit2 (0.1.1)
 
 DEPENDENCIES:
   - LBCocoaSpecKit (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - SDWebImage
+  https://github.com/yangqingren/Spec.git:
+    - LBCocoaSpecKit2
 
 EXTERNAL SOURCES:
   LBCocoaSpecKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LBCocoaSpecKit: 24f4acb1b2e16aad839379713fd444c3bbdc7dcc
-  SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
+  LBCocoaSpecKit: ab35d1236b2e136c26fbe66fadcff350353975e3
+  LBCocoaSpecKit2: 6cb974cf68078d7b3fca252349fedb75f07cb632
 
-PODFILE CHECKSUM: f7c776f394be033a12ad5cb6896c41184add05ab
+PODFILE CHECKSUM: 1fdc6d482afcfd1fa98aadf41e45ede25a1bf96c
 
 COCOAPODS: 1.6.1

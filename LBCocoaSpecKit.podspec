@@ -34,8 +34,8 @@ Pod::Spec.new do |s|
   
   s.source_files = 'LBCocoaSpecKit/Classes/**/*'
   
-  s.dependency 'SDWebImage'
-  #s.dependency 'LBCocoaSpecKit2'
+  #s.dependency 'SDWebImage'
+  s.dependency 'LBCocoaSpecKit2', '0.1.1'
   
   #s.resource = 'LBCocoaSpecKit/Assets/LBCocoaSpecKit.bundle'
   

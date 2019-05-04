@@ -23,23 +23,5 @@
     "Foundation",
     "CoreLocation"
   ],
-  "source_files": "LBCocoaSpecKit/Classes/**/*",
-  "subspecs": [
-    {
-      "name": "LBCocoaSubSpec",
-      "frameworks": [
-        "UIKit",
-        "Foundation"
-      ],
-      "source_files": "LBCocoaSpecKit/LBCocoaSubSpec/**/*"
-    },
-    {
-      "name": "LBCocoaSubSpec2",
-      "frameworks": [
-        "UIKit",
-        "Foundation"
-      ],
-      "source_files": "LBCocoaSpecKit/LBCocoaSubSpec2/**/*"
-    }
-  ]
+  "source_files": "LBCocoaSpecKit/Classes/**/*"
 }

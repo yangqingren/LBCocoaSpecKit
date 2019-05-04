@@ -7,6 +7,7 @@
 //
 
 #import "LBCocoaSpecKit.h"
+#import <SDWebImage/SDWebImage.h>
 
 @interface LBCocoaSpecKit ()
 

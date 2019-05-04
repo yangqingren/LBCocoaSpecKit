@@ -23,5 +23,10 @@
     "Foundation",
     "CoreLocation"
   ],
-  "source_files": "LBCocoaSpecKit/Classes/**/*"
+  "source_files": "LBCocoaSpecKit/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+
+    ]
+  }
 }

@@ -7,6 +7,7 @@
 //
 
 #import "LBViewController.h"
+#import <LBCocoaSpecKit/LBCocoaSpecKit.h>
 
 @interface LBViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

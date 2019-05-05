@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LBCocoaSpecKit'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'A short description of LBCocoaSpecKit.'
 
   
@@ -36,23 +36,23 @@ Pod::Spec.new do |s|
   s.source_files = 'LBCocoaSpecKit/Classes/**/*'
   
   #s.dependency 'SDWebImage'
-  s.dependency 'LBCocoaSpecKit2', '0.1.1'
+  #s.dependency 'LBCocoaSpecKit2', '0.1.1'
 
-  s.subspec 'LBCocoaSubSpec' do |ss|
-     ss.frameworks = 'UIKit', 'Foundation'
-     ss.source_files = 'LBCocoaSpecKit/LBCocoaSubSpec/**/*'
-  end
+  #s.subspec 'LBCocoaSubSpec' do |ss|
+      #ss.frameworks = 'UIKit', 'Foundation'
+     #ss.source_files = 'LBCocoaSpecKit/LBCocoaSubSpec/**/*'
+     #end
   
-  s.subspec 'LBCocoaSubSpec2' do |ss|
-     ss.frameworks = 'UIKit', 'Foundation'
-     ss.source_files = 'LBCocoaSpecKit/LBCocoaSubSpec2/**/*'
-  end
+  #s.subspec 'LBCocoaSubSpec2' do |ss|
+  #ss.frameworks = 'UIKit', 'Foundation'
+  #ss.source_files = 'LBCocoaSpecKit/LBCocoaSubSpec2/**/*'
+  #end
   
   #s.resource = 'LBCocoaSpecKit/Assets/LBCocoaSpecKit.bundle'
   
   #s.resource_bundles = {
-  #'SpecBox' => ['LBCocoaSpecKit/Assets/*']
-   #}
+  #    'SpecBox' => ['LBCocoaSpecKit/Assets/*']
+  #}
   
   #s.dependency 'AFNetworking'
   #s.dependency 'AFNetworking' ,'~> 2.0'

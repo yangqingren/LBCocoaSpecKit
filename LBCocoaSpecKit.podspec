@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LBCocoaSpecKit'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = 'A short description of LBCocoaSpecKit.'
 
   
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.source_files = 'LBCocoaSpecKit/Classes/**/*'
   
   #s.dependency 'SDWebImage'
-  #s.dependency 'LBCocoaSpecKit2', '0.1.1'
+  s.dependency 'LBCocoaSpecKit2', '0.1.1'
 
   #s.subspec 'LBCocoaSubSpec' do |ss|
       #ss.frameworks = 'UIKit', 'Foundation'

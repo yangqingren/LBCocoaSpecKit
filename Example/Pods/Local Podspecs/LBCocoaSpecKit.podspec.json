@@ -1,6 +1,6 @@
 {
   "name": "LBCocoaSpecKit",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "summary": "A short description of LBCocoaSpecKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yangqingren/LBCocoaSpecKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yangqingren/LBCocoaSpecKit.git",
-    "tag": "0.2.4"
+    "tag": "0.2.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,9 +24,22 @@
     "CoreLocation"
   ],
   "source_files": "LBCocoaSpecKit/Classes/**/*",
-  "dependencies": {
-    "LBCocoaSpecKit2": [
-      "0.1.1"
-    ]
-  }
+  "subspecs": [
+    {
+      "name": "LBCocoaSubSpec",
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ],
+      "source_files": "LBCocoaSpecKit/LBCocoaSubSpec/**/*"
+    },
+    {
+      "name": "LBCocoaSubSpec2",
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ],
+      "source_files": "LBCocoaSpecKit/LBCocoaSubSpec2/**/*"
+    }
+  ]
 }

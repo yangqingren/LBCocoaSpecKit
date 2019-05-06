@@ -7,7 +7,6 @@
 //
 
 #import "LBCocoaSpecKit.h"
-#import <LBCocoaSpecKit2/LBCocoaSpecKit2.h>
 
 @interface LBCocoaSpecKit ()
 
